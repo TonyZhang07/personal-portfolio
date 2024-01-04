@@ -1,0 +1,78 @@
+:root {
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #735dbd;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10vh;
+}
+
+.content-container {
+    display: flex;
+}
+
+.img-wrap {
+    display: flex;
+    margin-right: 20px;
+    /* Adjust the margin as needed */
+}
+
+.img {
+    border-radius: 50%;
+    width: 15vh;
+    height: 15vh;
+    margin: 5vh;
+    /* Adjust the margin as needed */
+}
+
+.img-0 {
+    width: 50vh;
+    /* Adjust the width as needed */
+    height: 75vh;
+    margin-left: auto;
+    /* Adjust the height as needed */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.innerWrap {
+    display: flex;
+    flex-wrap: wrap;  /* Allow logos to wrap onto the next line */
+    justify-content: center;  /* Center the logos horizontally */
+}
+
+
+.row {
+    display: flex;
+    margin-top: 2vh;
+}
+
+.text-container p {
+    /* Additional styling for your text */
+    margin-right: 2vh;
+    /* Adjust the margin as needed */
+}
+
+p {
+    font-size: 10vh;
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Adjust the background color and opacity as needed */
+    padding: 20px;
+    /* Adjust the padding as needed */
+    border-radius: 10px;
+    /* Adjust the border radius as needed */
+    margin-top: 20px;
+    /* Adjust the margin as needed */
+}

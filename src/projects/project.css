@@ -1,0 +1,43 @@
+/* project.css */
+
+.mainBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projectBox {
+    width: 300px;
+    /* Adjust the width of each box as needed */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.projectBox button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #b688db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-size: 10vh;
+}
+
+p{
+    font-size: 2vh;
+}
+
+.projectImage {
+    width: 100%; /* Make the image take the full width of the container */
+    height: 150px; /* Set a fixed height for the images */
+    object-fit: cover; /* Maintain aspect ratio */
+}
