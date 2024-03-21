@@ -42,18 +42,18 @@ function MyProject() {
     return (
         <>
             <div className="mainBox">
-                <ProjectBox
-                //     title="Rusty Rails"
-                //     imageSrc={RustyRails}
-                //     buttonText="View"
-                //     link="https://nathanieljmette.itch.io/rusty-rails"
-                //     text={`This project was done by me and fellow members in the class of ISTA 451. This was the first game that we had to develop for the course. During this time, we are introduced to Unity and Scripting with C#. We were to make a 2D game as our first game while learning a new language.
-                // The scope and scale of this project got way too big, although we did almost implement everything that we wanted to. It still turned out to be a buggy mess, but we learned a lot from the project and will see immediate improvements on the next game: AlcheMix\n
+                {/* <ProjectBox
+                    title="Rusty Rails"
+                    imageSrc={RustyRails}
+                    buttonText="View"
+                    link="https://nathanieljmette.itch.io/rusty-rails"
+                    text={`This project was done by me and fellow members in the class of ISTA 451. This was the first game that we had to develop for the course. During this time, we are introduced to Unity and Scripting with C#. We were to make a 2D game as our first game while learning a new language.
+                The scope and scale of this project got way too big, although we did almost implement everything that we wanted to. It still turned out to be a buggy mess, but we learned a lot from the project and will see immediate improvements on the next game: AlcheMix\n
                 
-                // The things that I've implemented within the game is:\n
-                // Time, Helped with the Event System and UI`}
-                //     showButton={true}
-                />
+                The things that I've implemented within the game is:\n
+                Time, Helped with the Event System and UI`}
+                    showButton={true}
+                /> */}
 
                 <ProjectBox
                     title="AlcheMix"
